@@ -1,0 +1,5 @@
+rok=int(input("podaj rok urodzenia"))
+if rok<2009:
+    print("czesc gigancie")
+else:
+    print("wywalaj za mlody jestes")
