@@ -1,0 +1,6 @@
+a=int(input("podaj lidzbe a"))
+b=int(input("podaj lidzbe b"))
+if a>b:
+    print(int(a-b))
+elif a<b:
+    print(int(a+b))
