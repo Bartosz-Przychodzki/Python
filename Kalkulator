@@ -3,6 +3,7 @@ print("1=dodawanie")
 print("2=odjmowanie")
 print("3=mnożenie")
 print("4=dzielenie")
+print("5=potgowanie")
 a=int(input("podaj a"))
 b=int(input("podaj b"))
 p=input("podaj działanie")
@@ -17,4 +18,6 @@ elif p=="4":
         print(int(a/b))
     else:
         print("")
-        print("kys")
+        print("0!")
+elif p=="5":
+    print (int(a**b))
