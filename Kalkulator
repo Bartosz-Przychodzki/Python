@@ -8,16 +8,16 @@ a=int(input("podaj a"))
 b=int(input("podaj b"))
 p=input("podaj działanie")
 if p=="1":
-    print(int(a+b))
+    print(a+b)
 elif p=="2":
-    print(int(a-b))
+    print(a-b)
 elif p=="3":
-    print(int(a*b))
+    print(a*b)
 elif p=="4":
     if b!=0:
-        print(int(a/b))
+        print(a/b)
     else:
         print("")
         print("0!")
 elif p=="5":
-    print (int(a**b))
+    print(a**b)
