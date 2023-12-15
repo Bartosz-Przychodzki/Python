@@ -1,0 +1,28 @@
+print("papier kamień nożyce")
+a=input("Gracz")
+import random
+list1 = ["papier", "kamień", "nożyce"]
+b=(random.choice(list1))
+print ("bot")
+print(b)
+if a =="papier":
+    if b == "kamień":
+        print("Gracz 2 przegrywa")
+    elif b == "nożyce":
+        print("Gracz 1 przegrywa")
+    elif b == "papier":
+        print("Remis")
+elif a == "kamień":
+    if b == "kamień":
+        print("Remis")
+    elif b == "nożyce":
+        print("Gracz 2 przegrywa")
+    elif b == "papier":
+        print("Gracz 1 przegrywa")
+elif a == "nożyce":
+    if b == "kamień":
+        print("Gracz 1 przegrywa")
+    elif b == "nożyce":
+        print("Remis")
+    elif b == "papier":
+        print("Gracz 2 przegrywa")
