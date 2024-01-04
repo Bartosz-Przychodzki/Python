@@ -1,0 +1,7 @@
+import math
+r=int(input("podaj promień"))
+if r>0:
+    print("pole wynosi",((r**2)*math.pi))
+    print("obwód wynosi",((math.pi**2)*r))
+else:
+    print("lidzba jest niższa lub równa od zeru")
