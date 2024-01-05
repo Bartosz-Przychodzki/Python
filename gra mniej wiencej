@@ -1,0 +1,21 @@
+print("zgadnij lidzbe 1 do 10")
+p=int(0)
+import random
+b=random.randint(0,10)
+while range(5):
+    if p<5:
+        a=int(input("podaj lidzbe"))
+        if a>b:
+            print("mniej")
+            p=p+1
+        elif a<b:
+            print("większe")
+            p=p+1
+        elif b==a:
+            p=p+1
+            print("wygrałeś")
+            print("lidzba prób",p)
+            break
+    else:
+        print("przegrałeś")
+        break
