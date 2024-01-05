@@ -1,0 +1,19 @@
+import math
+a = int(input("podaj współczynnik równania kwadratowego "))
+if a != 0:
+    b = int(input("podaj współczynnik równania kwadratowego "))
+    c = int(input("podaj współczynnik równania kwadratowego "))
+    d = ( b ** 2 ) - ( 4 * a * c )
+    print("delta wynosi ",d)
+    if d > 0:
+        wynik1 = ((-b - math.sqrt(d)) / (a * 2))
+        wynik2 = ((-b + math.sqrt(d)) / (a * 2))
+        print("x1 = ",wynik1)
+        print("x2 = ",wynik2)
+    elif d == 0:
+        wynik3 = (-b / (a * 2))
+        print("x = ",wynik3)
+    else:
+        print("nie ma rozwiązań")
+else:
+    print("a!=0")
