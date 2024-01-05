@@ -1,6 +1,6 @@
 print("papier kamień nożyce")
-a=input("Gracz 1")
-b=input("Gracz 2")
+a=input("Gracz 1 ")
+b=input("Gracz 2 ")
 if a =="papier":
     if b == "kamień":
         print("Gracz 2 przegrywa")
